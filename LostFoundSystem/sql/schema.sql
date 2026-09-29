@@ -1,7 +1,7 @@
 -- Campus Lost & Found Management System
 -- Run this in MySQL Workbench / mysql CLI before running the Java app
 
-CREATE DATABASE IF NOT EXISTS lost_found_db;
+CREATE DATABASE lost_found_db;
 USE lost_found_db;
 
 CREATE TABLE users (
