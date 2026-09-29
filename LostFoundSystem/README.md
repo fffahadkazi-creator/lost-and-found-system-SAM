@@ -20,7 +20,7 @@ plus an Admin claim-review screen (Approve/Reject → Resolved).
    `PASSWORD` field.
 7. Run `Main.java`.
 
-## How it maps to your flowchart
+## How it maps 
 
 - **Login/Signup** → `LoginForm.java`, `SignupForm.java`
 - **Dashboard** (routes Student vs Admin) → `DashboardFrame.java`
@@ -33,9 +33,3 @@ plus an Admin claim-review screen (Approve/Reject → Resolved).
   `ClaimDAO.fileClaim()` files the claim, `AdminReviewFrame.java` +
   `ClaimDAO.resolveClaim()` handle approve/reject.
 
-## Things you could add if you have extra time before submission
-
-- Hash passwords instead of storing them in plain text (e.g. with `MessageDigest` SHA-256)
-- Let a claim be verified by the item's original reporter, not just admin
-- Image upload for items (store a file path in the `items` table)
-- Export "My Reports" to PDF/CSV
