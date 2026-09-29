@@ -1,6 +1,6 @@
 # Campus Lost & Found Management System
 
-Java Swing + MySQL + JDBC mini project, matching your flowchart:
+Java Swing + MySQL + JDBC mini project, matching :
 Login/Signup → Dashboard → Report Lost / Report Found / Search / My Reports,
 plus an Admin claim-review screen (Approve/Reject → Resolved).
 
